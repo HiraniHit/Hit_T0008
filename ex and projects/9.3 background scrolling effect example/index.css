@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.img{
+    background-image: url("./img/pexels-souvenirpixels-417074.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 350px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    word-spacing: 5px;
+    
+}
+.logo{
+    padding: 20px;
+}
+.section{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+}
